@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="2.resx" />
+    <EmbeddedResource Remove="3.resx" />
+    <EmbeddedResource Remove="4.resx" />
+    <EmbeddedResource Remove="5.resx" />
+  </ItemGroup>
+
+</Project>
